@@ -28,8 +28,6 @@ En FastAPI-baserad AI-chatbot som använder Retrieval-Augmented Generation (RAG)
 
 ## 🚀 Snabbstart
 
-1. Klona repot:
-   ```bash
-   git clone https://github.com/dittanamn/rag-telegram-bot.git
-   cd rag-telegram-bot
+Chatta med boten på följande länk :
+https://t.me/ragprojekt_bot
 
