@@ -1,33 +1,37 @@
-# Telegram-Rag-Bot 📚🤖
+# 📚🤖 Telegram-Rag-Bot
+A FastAPI-based AI chatbot that uses Retrieval-Augmented Generation (RAG) to answer questions based on educational material about source criticism.
+The bot is integrated with Telegram and can also generate exercises upon request.
 
-En FastAPI-baserad AI-chatbot som använder Retrieval-Augmented Generation (RAG) för att svara på frågor baserat på utbildningsmaterial om källkritik. Botten är kopplad till Telegram och kan även skapa övningar på begäran.
+# ✨ Features
+Answer questions based on the ingested educational material.
 
----
+Generate exercises related to the material using the /exercise command.
 
-## ✨ Funktioner
-- Svara på frågor baserat på inläst utbildningsmaterial.
-- Skapa övningsuppgifter relaterade till materialet via kommandot `/exercise`.
-- Hantera vanliga kommandon som `/start` och `/help`.
-- Integration mot Telegram via Webhooks.
-- Byggd med RAG-teknik: OpenAI GPT-4 + Chroma Vector Database.
-- Strukturerad och modulär kodbas enligt moderna backend-principer.
+Handle basic commands like /start and /help.
 
----
+Integrated with Telegram via Webhooks.
 
-## 🛠 Teknikstack
-- Python 3.11
-- FastAPI
-- LangChain
-- Chroma (vektor-databas)
-- OpenAI GPT-4
-- Telegram Bot API
-- Docker (planerat för containerisering)
-- Kubernetes (planerad deployment)
+Built with RAG architecture: OpenAI GPT-4 + Chroma Vector Database.
 
----
+Structured and modular codebase following modern backend principles.
 
-## 🚀 Snabbstart
+# 🛠 Tech Stack
+Python 3.11
 
-Chatta med boten på följande länk :
-https://t.me/ragprojekt_bot
+FastAPI
 
+LangChain
+
+Chroma (vector database)
+
+OpenAI GPT-4
+
+Telegram Bot API
+
+Docker (for containerization)
+
+Kubernetes (for planned cloud deployment)
+
+# 🚀 Quick Start
+Chat with the bot here:
+🔗 https://t.me/ragprojekt_bot
