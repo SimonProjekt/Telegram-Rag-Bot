@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rag-telegram-bot
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: rag-telegram-bot
+  template:
+    metadata:
+      labels:
+        app: rag-telegram-bot
+    spec:
+      containers:
+      - name: rag-telegram-bot
+        image: dittdockerhubanvändarnamn/rag-telegram-bot:latest
+        ports:
+        - containerPort: 8000
+        envFrom:
+        - secretRef:
+            name: rag-telegram-env
